@@ -61,7 +61,7 @@ public class WordToXML {
 
     }
 
-    static final Logger logger = Logger.getLogger(WordToXML.class);
+
     DocumentBuilderFactory docFactory = null;
     DocumentBuilder docBuilder = null;
     Element rootElement = null;
