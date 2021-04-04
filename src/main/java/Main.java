@@ -1,6 +1,7 @@
 import com.leticia.ui.Landing;
 import javafx.application.Application;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.Background;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -28,7 +29,10 @@ public class Main extends Application {
         // Add the scene to the Stage
         stage.setScene(scene);
         // Set the title of the Stage
-        stage.setTitle("Word2XML converter");
+        stage.setTitle("Word2XML converter - Developed by Leticia");
+
+        stage.getIcons().add(new Image(("bg-2.jpg")));
+
         // Display the Stage
         stage.show();
     }
